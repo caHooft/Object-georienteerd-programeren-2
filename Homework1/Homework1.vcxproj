@@ -151,10 +151,36 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Card.cpp" />
+    <ClCompile Include="Deck.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GenericPlayer.cpp" />
+    <ClCompile Include="Hand.cpp" />
+    <ClCompile Include="Homework 11.cpp" />
     <ClCompile Include="Homework1.cpp" />
+    <ClCompile Include="Homework10.cpp" />
+    <ClCompile Include="Homework12.cpp" />
+    <ClCompile Include="Homework13.cpp" />
+    <ClCompile Include="Homework14.cpp" />
     <ClCompile Include="Homework3.cpp" />
     <ClCompile Include="homework4.cpp" />
     <ClCompile Include="Homework5.cpp" />
+    <ClCompile Include="Homework6.cpp" />
+    <ClCompile Include="Homework7.cpp" />
+    <ClCompile Include="Homework8.cpp" />
+    <ClCompile Include="Homework9.cpp" />
+    <ClCompile Include="House.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Player.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Card.h" />
+    <ClInclude Include="Deck.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GenericPlayer.h" />
+    <ClInclude Include="Hand.h" />
+    <ClInclude Include="House.h" />
+    <ClInclude Include="Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
