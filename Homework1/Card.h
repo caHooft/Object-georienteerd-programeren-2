@@ -4,12 +4,8 @@
 #define CARD_H
 
 #include <iostream>
-#include <string>
-#include <vector>
-#include <algorithm>
-#include <ctime>
-using namespace std;
 
+using namespace std;
 class Card
 {
 public:
@@ -30,11 +26,14 @@ public:
 	//flips a card; if face up, becomes face down and vice versa
 	void Flip();
 
-private:
+
 	rank m_Rank;
 	suit m_Suit;
 	bool m_IsFaceUp;
 };
 
-#endif // !CARD_H
+
+ostream& operator<<(ostream& os, const Card& aCard);
+
+#endif // CARD_H
 

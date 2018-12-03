@@ -2,12 +2,9 @@
 
 #ifndef HAND_H
 #define HAND_H
-
-#include <iostream>
-#include <string>
 #include <vector>
-#include <algorithm>
-#include <ctime>
+#include "Card.h"
+
 using namespace std;
 
 class Hand
@@ -31,4 +28,4 @@ protected:
 };
 
 
-#endif // !HAND_H
+#endif // HAND_H

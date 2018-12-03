@@ -2,13 +2,8 @@
 
 #ifndef PLAYER_H
 #define PLAYER_H
+#include "GenericPlayer.h"
 
-#include <iostream>
-#include <string>
-#include <vector>
-#include <algorithm>
-#include <ctime>
-using namespace std;
 
 class Player : public GenericPlayer
 {
@@ -30,4 +25,4 @@ public:
 	void Push() const;
 };
 
-#endif // !PLAYER_H
+#endif // PLAYER_H

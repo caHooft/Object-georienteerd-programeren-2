@@ -1,18 +1,12 @@
 //Deck.cpp
 
-#include "Card.h"
 #include "Deck.h"
-#include "Game.h"
-#include "GenericPlayer.h"
-#include "Hand.h"
-#include "House.h"
-#include "Player.h"
+#include "Card.h"
 
 #include <iostream>
 #include <string>
 #include <vector>
 #include <algorithm>
-#include <ctime>
 using namespace std;
 
 

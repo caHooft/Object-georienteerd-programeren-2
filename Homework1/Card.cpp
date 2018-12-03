@@ -1,20 +1,29 @@
-//Card.h
+//Card.cpp
 
 #include "Card.h"
-#include "Deck.h"
-#include "Game.h"
-#include "GenericPlayer.h"
-#include "Hand.h"
-#include "House.h"
-#include "Player.h"
-
-
 #include <iostream>
 #include <string>
-#include <vector>
-#include <algorithm>
-#include <ctime>
 using namespace std;
+
+
+ostream& operator<<(ostream& os, const Card& aCard)
+{
+	const string RANKS[] = { "0", "A", "2", "3", "4", "5", "6", "7", "8", "9",
+							"10", "J", "Q", "K" };
+	const string SUITS[] = { "c", "d", "h", "s" };
+
+	if (aCard.m_IsFaceUp)
+	{
+		os << RANKS[aCard.m_Rank] << SUITS[aCard.m_Suit];
+	}
+	else
+	{
+		os << "XX";
+	}
+
+	return os;
+}
+
 
 Card::Card(rank r, suit s, bool ifu) : m_Rank(r), m_Suit(s), m_IsFaceUp(ifu)
 {}

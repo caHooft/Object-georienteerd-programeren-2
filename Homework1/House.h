@@ -3,12 +3,6 @@
 #ifndef HOUSE_H
 #define HOUSE_H
 
-#include <iostream>
-#include <string>
-#include <vector>
-#include <algorithm>
-#include <ctime>
-using namespace std;
 
 class House : public GenericPlayer
 {
@@ -24,4 +18,4 @@ public:
 	void FlipFirstCard();
 };
 
-#endif // !HOUSE_H
+#endif // HOUSE_H

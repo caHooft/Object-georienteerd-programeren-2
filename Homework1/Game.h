@@ -2,13 +2,13 @@
 
 #ifndef GAME_H
 #define GAME_H
-
+#include "Player.h"
+#include "Deck.h"
+#include "House.h"
 #include <iostream>
 #include <string>
 #include <vector>
 #include <algorithm>
-#include <ctime>
-using namespace std;
 
 class Game
 {
@@ -26,5 +26,5 @@ private:
 	vector<Player> m_Players;
 };
 
-#endif // !GAME_H
+#endif // GAME_H
 

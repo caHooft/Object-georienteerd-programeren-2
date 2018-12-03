@@ -14,6 +14,7 @@
 #include <algorithm>
 #include <ctime>
 using namespace std;
+
 Hand::Hand()
 {
 	m_Cards.reserve(7);

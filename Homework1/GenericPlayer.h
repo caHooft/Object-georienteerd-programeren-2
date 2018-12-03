@@ -2,13 +2,7 @@
 
 #ifndef GENERICPLAYER_H
 #define GENERICPLAYER_H
-
-#include <iostream>
-#include <string>
-#include <vector>
-#include <algorithm>
-#include <ctime>
-using namespace std;
+#include "hand.h"
 
 class GenericPlayer : public Hand
 {
@@ -31,4 +25,8 @@ public:
 protected:
 	string m_Name;
 };
-#endif // !GENERICPLAYER_H
+
+ostream& operator<<(ostream& os, const GenericPlayer& aGenericPlayer);
+
+#endif // GENERICPLAYER_H
+

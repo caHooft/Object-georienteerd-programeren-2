@@ -2,13 +2,12 @@
 
 #ifndef DECK_H
 #define DECK_H
-
 #include <iostream>
-#include <string>
-#include <vector>
-#include <algorithm>
-#include <ctime>
+#include "Hand.h"
+#include "GenericPlayer.h"
+
 using namespace std;
+
 
 class Deck : public Hand
 {
@@ -30,4 +29,4 @@ public:
 	void AdditionalCards(GenericPlayer& aGenericPlayer);
 };
 
-#endif // !DECK_H
+#endif // DECK_H
